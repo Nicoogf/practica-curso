@@ -22,9 +22,9 @@ const CardModal = ( {handleShowCartModal}) => {
             <tbody>
                 <tr>
                     <td> name </td>
-                    <td> <button className={ styles.modalButtonRemove }> -1 </button> </td>
+                    <td> <button className={ styles.modalButtonContainer }> -1 </button> </td>
                     <td> 12 </td>
-                    <td> <button className={ styles.modalButtonAdd }> +1 </button> </td>
+                    <td> <button className={ styles.modalButtonContainer }> +1 </button> </td>
                 </tr>
             </tbody>
         </table>
